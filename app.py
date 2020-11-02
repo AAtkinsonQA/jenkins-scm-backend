@@ -26,3 +26,4 @@ def get_all_books():
             return Response(json.dumps(books), mimetype='application/json')
     finally:
         connection.close()
+print('hello world')
